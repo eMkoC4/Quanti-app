@@ -30,7 +30,7 @@ struct PhotosView: View {
     var body: some View {
         Text("Photos")
             .font(.headline)
-        LazyVGrid(columns: columns, spacing: 10 ) {
+        LazyVGrid(columns: columns, spacing: 16 ) {
             ForEach (rocket.flickrImages, id: \.self) { image in
                 VStack {
                     WebImage(url: URL(string: image))

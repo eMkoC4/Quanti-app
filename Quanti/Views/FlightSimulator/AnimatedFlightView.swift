@@ -8,13 +8,14 @@
 import SwiftUI
 
 struct AnimatedFlightView: View {
+    
     @Namespace private var animation
     let timer = Timer.publish(every: 0.5, on: .current, in: .common).autoconnect()
     @State private var isFlipped = false
     //@State private var result = Accelerometer()
+    
     var body: some View {
         VStack {
-            
             if isFlipped {
                 Image("Rocket Flying")
                     .matchedGeometryEffect(id: "image", in: animation)
@@ -32,17 +33,18 @@ struct AnimatedFlightView: View {
                     Text("to launch the rocket")
                         .font(.subheadline)
                 }
-//                .onReceive(timer) { time in
-//                    if result {
-//                        withAnimation(.linear(duration: 0.8)) {
-//                            isFlipped.toggle()
-//                        }
-//                        timer.upstream.connect().cancel()
-//                    } else {
-//                        print(result)
-//                    }
-//                }
-
+                .onReceive(timer) { time in
+                    let result = Accelerometer()
+                    
+                    if result {
+                        withAnimation(.linear(duration: 0.8)) {
+                            isFlipped.toggle()
+                        }
+                        timer.upstream.connect().cancel()
+                    } else {
+                        print(result)
+                    }
+                }
             }
         }
         .navigationBarTitle("Launch")
@@ -50,7 +52,9 @@ struct AnimatedFlightView: View {
         .toolbar {
             ToolbarItem {
                 Button(action: {
-                    //result = true
+                    withAnimation(.linear(duration: 0.8)) {
+                        isFlipped.toggle()
+                    }
                 }) {
                     Text("Manual launch")
                         .bold()

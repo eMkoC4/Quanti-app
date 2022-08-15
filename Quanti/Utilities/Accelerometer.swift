@@ -9,6 +9,7 @@ import CoreMotion
 import Foundation
 
 func Accelerometer() -> Bool {
+    //returns true if phone in horizontal position
     
     let manager = CMMotionManager()
     manager.accelerometerUpdateInterval = 0.5
@@ -32,7 +33,7 @@ func Accelerometer() -> Bool {
     if x == 0 && y == 0 && z == 0 {
         return true
     } else {
-        print("x: \(x), y: \(y), z: \(z)")
+        print("x: \(String(describing: x)), y: \(String(describing: y)), z: \(String(describing: z))")
         return false
     }
 }

@@ -36,7 +36,7 @@ struct FirstStageView: View {
                     if rocket.firstStage.burnTimeSEC != nil {
                         Text(String(rocket.firstStage.burnTimeSEC!) + " seconds burn time")
                     } else {
-                        Text("! Missing value")
+                        Text("Data not available")
                     }
                 }
             }
