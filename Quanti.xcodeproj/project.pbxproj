@@ -62,7 +62,6 @@
 		F9480EA328639B7C00590A71 /* AnimatedFlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedFlightView.swift; sourceTree = "<group>"; };
 		F9BE35932860CDD400914A70 /* FlightSimulatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSimulatorView.swift; sourceTree = "<group>"; };
 		F9BE35952860D21400914A70 /* Accelerometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accelerometer.swift; sourceTree = "<group>"; };
-		F9E8293328AAA6970029C16D /* info.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = info.md; sourceTree = "<group>"; };
 		F9F439AA285FD090008B9E58 /* PhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
 		F9F439B0285FD231008B9E58 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,7 +81,6 @@
 		F9179FA7285F9D8C001F035E = {
 			isa = PBXGroup;
 			children = (
-				F9E8293328AAA6970029C16D /* info.md */,
 				F9179FB2285F9D8C001F035E /* Quanti */,
 				F9179FB1285F9D8C001F035E /* Products */,
 			);
