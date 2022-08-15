@@ -1,5 +1,5 @@
 //
-//  Gyroscope.swift
+//  Acceletometer.swift
 //  Quanti
 //
 //  Created by IvanQ on 20.06.2022.
