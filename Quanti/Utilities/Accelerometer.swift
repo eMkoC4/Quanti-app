@@ -30,10 +30,10 @@ func Accelerometer() -> Bool {
 //        }
 //
 //    {
-    if x == 0 && y == 0 && z == 0 {
-        return true
-    } else {
+    if (x == 0 && y == 0 && z == 0) || (x == nil && y == nil && z == nil) {
         print("x: \(String(describing: x)), y: \(String(describing: y)), z: \(String(describing: z))")
         return false
+    } else {
+        return true
     }
 }
