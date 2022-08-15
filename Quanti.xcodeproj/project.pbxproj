@@ -82,6 +82,7 @@
 		F9179FA7285F9D8C001F035E = {
 			isa = PBXGroup;
 			children = (
+				F9E8293328AAA6970029C16D /* info.md */,
 				F9179FB2285F9D8C001F035E /* Quanti */,
 				F9179FB1285F9D8C001F035E /* Products */,
 			);
@@ -108,7 +109,6 @@
 				F9179FB9285F9D8D001F035E /* Preview Content */,
 				F9F439AF285FD21B008B9E58 /* Utilities */,
 				F9179FE3285FBC5B001F035E /* GridView.swift */,
-				F9E8293328AAA6970029C16D /* info.md */,
 			);
 			path = Quanti;
 			sourceTree = "<group>";
