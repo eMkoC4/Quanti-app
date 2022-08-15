@@ -11,6 +11,29 @@
 		F9179FB6285F9D8C001F035E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9179FB5285F9D8C001F035E /* ContentView.swift */; };
 		F9179FB8285F9D8D001F035E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9179FB7285F9D8D001F035E /* Assets.xcassets */; };
 		F9179FBB285F9D8D001F035E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9179FBA285F9D8D001F035E /* Preview Assets.xcassets */; };
+		F9179FC3285F9DB9001F035E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9179FC2285F9DB9001F035E /* APIManager.swift */; };
+		F9179FC6285F9DEE001F035E /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9179FC5285F9DEE001F035E /* Logger.swift */; };
+		F9179FC8285F9E0B001F035E /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9179FC7285F9E0B001F035E /* Endpoint.swift */; };
+		F9179FCB285F9E35001F035E /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9179FCA285F9E35001F035E /* APIError.swift */; };
+		F9179FCD285F9E64001F035E /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9179FCC285F9E64001F035E /* HTTPMethod.swift */; };
+		F9179FCF285F9EB5001F035E /* HTTPHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9179FCE285F9EB5001F035E /* HTTPHeader.swift */; };
+		F9179FD2285F9F53001F035E /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9179FD1285F9F53001F035E /* Rocket.swift */; };
+		F9179FD4285F9FD6001F035E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9179FD3285F9FD6001F035E /* Router.swift */; };
+		F9179FD8285FA53F001F035E /* RocketListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9179FD7285FA53F001F035E /* RocketListView.swift */; };
+		F9179FDB285FA582001F035E /* RocketsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9179FDA285FA582001F035E /* RocketsStore.swift */; };
+		F9179FDE285FABD4001F035E /* RocketDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9179FDD285FABD4001F035E /* RocketDetailView.swift */; };
+		F9179FE0285FABE8001F035E /* RocketDetailStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9179FDF285FABE8001F035E /* RocketDetailStore.swift */; };
+		F9179FE2285FAEBB001F035E /* RocketParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9179FE1285FAEBB001F035E /* RocketParameters.swift */; };
+		F9179FE4285FBC5B001F035E /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9179FE3285FBC5B001F035E /* GridView.swift */; };
+		F9179FE9285FC1AB001F035E /* FirstStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9179FE8285FC1AB001F035E /* FirstStageView.swift */; };
+		F9179FEB285FCBB5001F035E /* SecondStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9179FEA285FCBB5001F035E /* SecondStageView.swift */; };
+		F9480EA228639A6C00590A71 /* AnimatedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9480EA128639A6C00590A71 /* AnimatedImage.swift */; };
+		F9480EA428639B7C00590A71 /* AnimatedFlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9480EA328639B7C00590A71 /* AnimatedFlightView.swift */; };
+		F9BE35942860CDD400914A70 /* FlightSimulatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE35932860CDD400914A70 /* FlightSimulatorView.swift */; };
+		F9BE35962860D21400914A70 /* Accelerometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE35952860D21400914A70 /* Accelerometer.swift */; };
+		F9F439AB285FD090008B9E58 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F439AA285FD090008B9E58 /* PhotosView.swift */; };
+		F9F439AE285FD13E008B9E58 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F9F439AD285FD13E008B9E58 /* SDWebImageSwiftUI */; };
+		F9F439B1285FD231008B9E58 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F439B0285FD231008B9E58 /* URL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +42,28 @@
 		F9179FB5285F9D8C001F035E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F9179FB7285F9D8D001F035E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9179FBA285F9D8D001F035E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F9179FC2285F9DB9001F035E /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		F9179FC5285F9DEE001F035E /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		F9179FC7285F9E0B001F035E /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		F9179FCA285F9E35001F035E /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		F9179FCC285F9E64001F035E /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		F9179FCE285F9EB5001F035E /* HTTPHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeader.swift; sourceTree = "<group>"; };
+		F9179FD1285F9F53001F035E /* Rocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
+		F9179FD3285F9FD6001F035E /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		F9179FD7285FA53F001F035E /* RocketListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketListView.swift; sourceTree = "<group>"; };
+		F9179FDA285FA582001F035E /* RocketsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsStore.swift; sourceTree = "<group>"; };
+		F9179FDD285FABD4001F035E /* RocketDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketDetailView.swift; sourceTree = "<group>"; };
+		F9179FDF285FABE8001F035E /* RocketDetailStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketDetailStore.swift; sourceTree = "<group>"; };
+		F9179FE1285FAEBB001F035E /* RocketParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketParameters.swift; sourceTree = "<group>"; };
+		F9179FE3285FBC5B001F035E /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		F9179FE8285FC1AB001F035E /* FirstStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStageView.swift; sourceTree = "<group>"; };
+		F9179FEA285FCBB5001F035E /* SecondStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondStageView.swift; sourceTree = "<group>"; };
+		F9480EA128639A6C00590A71 /* AnimatedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedImage.swift; sourceTree = "<group>"; };
+		F9480EA328639B7C00590A71 /* AnimatedFlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedFlightView.swift; sourceTree = "<group>"; };
+		F9BE35932860CDD400914A70 /* FlightSimulatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSimulatorView.swift; sourceTree = "<group>"; };
+		F9BE35952860D21400914A70 /* Accelerometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accelerometer.swift; sourceTree = "<group>"; };
+		F9F439AA285FD090008B9E58 /* PhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
+		F9F439B0285FD231008B9E58 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9F439AE285FD13E008B9E58 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +97,16 @@
 		F9179FB2285F9D8C001F035E /* Quanti */ = {
 			isa = PBXGroup;
 			children = (
+				F9179FD0285F9F46001F035E /* Model */,
+				F9179FC4285F9DDA001F035E /* Logger */,
+				F9179FC1285F9DA8001F035E /* API Manager */,
 				F9179FB3285F9D8C001F035E /* QuantiApp.swift */,
 				F9179FB5285F9D8C001F035E /* ContentView.swift */,
 				F9179FB7285F9D8D001F035E /* Assets.xcassets */,
+				F9179FD9285FA566001F035E /* Views */,
 				F9179FB9285F9D8D001F035E /* Preview Content */,
+				F9F439AF285FD21B008B9E58 /* Utilities */,
+				F9179FE3285FBC5B001F035E /* GridView.swift */,
 			);
 			path = Quanti;
 			sourceTree = "<group>";
@@ -65,6 +117,94 @@
 				F9179FBA285F9D8D001F035E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F9179FC1285F9DA8001F035E /* API Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F9179FC9285F9E23001F035E /* Utilities */,
+				F9179FC2285F9DB9001F035E /* APIManager.swift */,
+				F9179FC7285F9E0B001F035E /* Endpoint.swift */,
+				F9179FD3285F9FD6001F035E /* Router.swift */,
+			);
+			path = "API Manager";
+			sourceTree = "<group>";
+		};
+		F9179FC4285F9DDA001F035E /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				F9179FC5285F9DEE001F035E /* Logger.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		F9179FC9285F9E23001F035E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F9179FCA285F9E35001F035E /* APIError.swift */,
+				F9179FCC285F9E64001F035E /* HTTPMethod.swift */,
+				F9179FCE285F9EB5001F035E /* HTTPHeader.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F9179FD0285F9F46001F035E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9179FD1285F9F53001F035E /* Rocket.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9179FD9285FA566001F035E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE35922860CDA000914A70 /* FlightSimulator */,
+				F9179FDC285FABBF001F035E /* RocketDetail */,
+				F9179FD7285FA53F001F035E /* RocketListView.swift */,
+				F9179FDA285FA582001F035E /* RocketsStore.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F9179FDC285FABBF001F035E /* RocketDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F9179FE5285FBDF4001F035E /* Detail Views */,
+				F9179FDD285FABD4001F035E /* RocketDetailView.swift */,
+				F9179FDF285FABE8001F035E /* RocketDetailStore.swift */,
+			);
+			path = RocketDetail;
+			sourceTree = "<group>";
+		};
+		F9179FE5285FBDF4001F035E /* Detail Views */ = {
+			isa = PBXGroup;
+			children = (
+				F9179FE1285FAEBB001F035E /* RocketParameters.swift */,
+				F9179FE8285FC1AB001F035E /* FirstStageView.swift */,
+				F9179FEA285FCBB5001F035E /* SecondStageView.swift */,
+				F9F439AA285FD090008B9E58 /* PhotosView.swift */,
+			);
+			path = "Detail Views";
+			sourceTree = "<group>";
+		};
+		F9BE35922860CDA000914A70 /* FlightSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE35932860CDD400914A70 /* FlightSimulatorView.swift */,
+				F9480EA328639B7C00590A71 /* AnimatedFlightView.swift */,
+			);
+			path = FlightSimulator;
+			sourceTree = "<group>";
+		};
+		F9F439AF285FD21B008B9E58 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE35952860D21400914A70 /* Accelerometer.swift */,
+				F9F439B0285FD231008B9E58 /* URL.swift */,
+				F9480EA128639A6C00590A71 /* AnimatedImage.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +223,9 @@
 			dependencies = (
 			);
 			name = Quanti;
+			packageProductDependencies = (
+				F9F439AD285FD13E008B9E58 /* SDWebImageSwiftUI */,
+			);
 			productName = Quanti;
 			productReference = F9179FB0285F9D8C001F035E /* Quanti.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +254,9 @@
 				Base,
 			);
 			mainGroup = F9179FA7285F9D8C001F035E;
+			packageReferences = (
+				F9F439AC285FD13E008B9E58 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = F9179FB1285F9D8C001F035E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +283,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9F439AB285FD090008B9E58 /* PhotosView.swift in Sources */,
+				F9179FC3285F9DB9001F035E /* APIManager.swift in Sources */,
+				F9179FEB285FCBB5001F035E /* SecondStageView.swift in Sources */,
 				F9179FB6285F9D8C001F035E /* ContentView.swift in Sources */,
+				F9179FE0285FABE8001F035E /* RocketDetailStore.swift in Sources */,
+				F9BE35942860CDD400914A70 /* FlightSimulatorView.swift in Sources */,
+				F9179FD4285F9FD6001F035E /* Router.swift in Sources */,
+				F9480EA428639B7C00590A71 /* AnimatedFlightView.swift in Sources */,
+				F9179FE2285FAEBB001F035E /* RocketParameters.swift in Sources */,
+				F9179FD8285FA53F001F035E /* RocketListView.swift in Sources */,
+				F9179FCD285F9E64001F035E /* HTTPMethod.swift in Sources */,
+				F9179FE9285FC1AB001F035E /* FirstStageView.swift in Sources */,
 				F9179FB4285F9D8C001F035E /* QuantiApp.swift in Sources */,
+				F9179FD2285F9F53001F035E /* Rocket.swift in Sources */,
+				F9179FCF285F9EB5001F035E /* HTTPHeader.swift in Sources */,
+				F9480EA228639A6C00590A71 /* AnimatedImage.swift in Sources */,
+				F9179FE4285FBC5B001F035E /* GridView.swift in Sources */,
+				F9BE35962860D21400914A70 /* Accelerometer.swift in Sources */,
+				F9179FC6285F9DEE001F035E /* Logger.swift in Sources */,
+				F9F439B1285FD231008B9E58 /* URL.swift in Sources */,
+				F9179FDE285FABD4001F035E /* RocketDetailView.swift in Sources */,
+				F9179FDB285FA582001F035E /* RocketsStore.swift in Sources */,
+				F9179FC8285F9E0B001F035E /* Endpoint.swift in Sources */,
+				F9179FCB285F9E35001F035E /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +505,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F9F439AC285FD13E008B9E58 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F9F439AD285FD13E008B9E58 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9F439AC285FD13E008B9E58 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F9179FA8285F9D8C001F035E /* Project object */;
 }

@@ -8,9 +8,44 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var store = RocketsStore()
+    @State private var isShowingDetailView = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            switch store.state {
+            case .finished:
+                content
+            case .initial, .loading:
+                ProgressView()
+            case .failed:
+                Text("🥲🥲🥲 Something went wrong")
+            }
+        }
+        .onAppear(perform: load)
+    }
+    
+    var content: some View {
+        NavigationView {
+            List {
+                ForEach (store.rockets) { rocket in
+                    NavigationLink(destination:
+                    RocketDetailView(store: RocketDetailStore(rocket: rocket))
+                    ) {
+                        RocketListView(rocket: rocket)
+                    }
+                }
+            }
+            .navigationTitle("Rockets")
+        }
+    }
+}
+
+extension ContentView {
+    func load() {
+        Task {
+            await store.load()
+        }
     }
 }
 
